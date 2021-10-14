@@ -5,7 +5,7 @@
 
 
 
-J3
+J4
 
 	1452-E2154CS0C1-ND‎
 	‎E2154CS0C1‎
@@ -26,6 +26,13 @@ J3
 	digikey:HFK124CT-ND‎
 	‎jlcpcb:C506794
 
+
+	If diplay is on same side as connector then display have copper down.
+	So use ‎FH12-24S-0.5SH(55)‎
+
+	Will try put connector under PCB and display on top with flat cable around the edge.
+	This way FPC/FFC conductive surface will be up (from PCB).	 
+	If so use FH12A-24S-0.5SH(55)‎
 
 
 
@@ -56,11 +63,25 @@ Q1
 
 
 SW1
-	Top Actuated 50mA @ 12VDC Round Button 160gf SPST SMD Tactile Switches ROHS
-	SMD-SW-4_5.1x5.1x1.5
-	‎jlcpcb:C318884
+
+	SMD version
+		Top Actuated 50mA @ 12VDC Round Button 160gf SPST SMD Tactile Switches ROHS
+		SMD-SW-4_5.1x5.1x1.5
+		‎jlcpcb:C318884
+		kicad-footprint:Button_Switch_SMD:SW_SPST_TL3342
+
+
+	THT version
+		digikey:679-2428-ND‎
+		‎MJTP1230‎
+		APEM Inc.
+		SWITCH TACTILE SPST-NO 0.05A 12V
+		kicad-footprint:Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx
+
+
 
 R?
+
 	220 Ohm
 	220Ω ±1% 0.25W ±100ppm/℃ 1206 Chip Resistor
 	jlcpcb:C17957
