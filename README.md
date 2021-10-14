@@ -9,4 +9,6 @@ It is a work in progress. I usually bunch a few projects together since delivery
 part of the cost when ordering the PCB/SMA. So this project will finish when some other minor projects also are ready.
 If someone is interested in this particular one I could speed it up a bit.
 
+See also "kicad/schematic.pdf".
+
 /Henrik
